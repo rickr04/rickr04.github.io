@@ -105,7 +105,7 @@ function commander(cmd) {
 function newPage(){
   setTimeout(function() {
     window.location.href="home.html"
-  }, 2000);
+  }, 1000);
   
 }
 
