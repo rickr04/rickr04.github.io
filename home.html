@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gray: "#17171F",
+            },
+            fontFamily: {
+              poppins: ["'Poppins'", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+
+  <body class="bg-gray text-white font-poppins pb-12">
+    <header class="py-6">
+      <div
+        class="container flex justify-between items-center mx-auto px-8 md:px-15 lg:px-24 w-full"
+      >
+        <div class="text-lg">Rick Ramirez</div>
+        <div class="hidden md:flex space-x-6 items-center">
+          <a href="#" class="text-emerald-600">Home</a>
+          <a href="#">My Work</a>
+          <a href="#">Resume</a>
+          <a href="index.html"
+            ><button class="px-6 py-2 bg-emerald-800">Terminal</button></a
+          >
+        </div>
+        <div class="md:hidden">
+          <svg
+            style="color: white"
+            height="32px"
+            id="Layer_1"
+            version="1.1"
+            viewBox="0 0 32 32"
+            width="32px"
+            xml:space="preserve"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <path
+              d="M4,10h24c1.104,0,2-0.896,2-2s-0.896-2-2-2H4C2.896,6,2,6.896,2,8S2.896,10,4,10z M28,14H4c-1.104,0-2,0.896-2,2 s0.896,2,2,2h24c1.104,0,2-0.896,2-2S29.104,14,28,14z M28,22H4c-1.104,0-2,0.896-2,2s0.896,2,2,2h24c1.104,0,2-0.896,2-2 S29.104,22,28,22z"
+              fill="white"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-15 lg:px-24 w-full"
+    >
+      <div
+        class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"
+      >
+        <h1
+          class="font-bold text-5xl md:text-6xl lg:text-7xl text-center md:text-left"
+        >
+          Hi,<br />I'm
+          <span class="text-emerald-600">Rick</span>
+        </h1>
+      </div>
+    </div>
+
+    <div class="flex justify-center items-center" id="catPic"></div>
+    <div class="flex justify-center items-center" id="catPic">
+        <h1
+          class="text-2xl md:text-3xl lg:text-4xl text-center md:text-left mt-8"
+        >
+          Click on cat picture for even more cat pictures!
+    </div>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
