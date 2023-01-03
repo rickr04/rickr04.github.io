@@ -7,6 +7,7 @@ var terminal = document.getElementById("terminal");
 var git = 0;
 var commandsHistory = [];
 
+console.log("Hey, why you looking at the console? 😉")
 setTimeout(function() {
   loopLines(banner, "", 80);
   textarea.focus();
@@ -58,13 +59,11 @@ function commander(cmd) {
       loopLines(whoami, "color2 margin", 80);
       break;
     case "resume":
-      loopLines(resume, "color2 margin", 80);
+      addLine("Opening Resume...", "color2", 0);
+      newTab(resume);
       break;  
     case "sudo rm -rf":
       addLine("Hey hey now, stop that", "error", 80);
-      break;
-    case "projects":
-      loopLines(projects, "color2 margin", 80);
       break;
     case "history":
       addLine("<br>", "", 0);

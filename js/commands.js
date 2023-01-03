@@ -1,6 +1,7 @@
 var linkedin = "https://www.linkedin.com/in/rick-ramirez04/";
 var github = "https://github.com/rickr04/";
 var email = 'mailto:rickramirez04@gmail.com';
+var resume = "https://drive.google.com/file/d/1YYn_T7G5-Y5O6-_bkeOOte3ORaZAnsc_/view?usp=sharings"
 
 whois = [
   "<br>",
@@ -34,7 +35,6 @@ help = [
   '<span class="command">whois</span>          Who is Rick?',
   '<span class="command">whoami</span>         Who are you?',
   '<span class="command">resume</span>         View Rick\'s skillset',
-  '<span class="command">projects</span>       View coding projects',
   '<span class="command">linkedin</span>       Checkout my Linkedin',
   '<span class="command">github</span>         Checkout my Github',
   '<span class="command">email</span>          Shoot me a message',

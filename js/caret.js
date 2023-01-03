@@ -23,7 +23,6 @@ function typeIt(from, e) {
 }
 
 function moveIt(count, e) {
-  console.log("test")
   e = e || window.event;
   var keycode = e.keyCode || e.which;
   if (keycode == 37 && parseInt(cursor.style.left) >= (0 - ((count - 1) * 10))) {

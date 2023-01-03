@@ -8,6 +8,7 @@
           extend: {
             colors: {
               gray: "#17171F",
+              cards:'#2d2d3d',
             },
             fontFamily: {
               poppins: ["'Poppins'", "sans-serif"],
@@ -16,6 +17,7 @@
         },
       };
     </script>
+     <link rel="stylesheet" href="css/homepageStyle.css">
   </head>
 
   <body class="bg-gray text-white font-poppins pb-12">
@@ -26,8 +28,8 @@
         <div class="text-lg">Rick Ramirez</div>
         <div class="hidden md:flex space-x-6 items-center">
           <a href="#" class="text-emerald-600">Home</a>
-          <a href="#">My Work</a>
-          <a href="#">Resume</a>
+          <a href="#section">My Work</a>
+          <a href="https://drive.google.com/file/d/1YYn_T7G5-Y5O6-_bkeOOte3ORaZAnsc_/view?usp=sharings">Resume</a>
           <a href="index.html"
             ><button class="px-6 py-2 bg-emerald-800">Terminal</button></a
           >
@@ -68,13 +70,69 @@
       </div>
     </div>
 
+    <div
+    class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-15 lg:px-24 w-full"
+  >
+    <div
+      class="flex flex-wrap lg:ml-20 justify-center md:justify-start "
+      id="section"
+    >
+      <h1
+        class="text-2xl md:text-3xl lg:text-4xl text-center md:text-left"
+      >
+        Welcome to my personal website! We are still under active construction so this page is mainly for redirection to my resume, linkedin, github.
+        Check back soon to see a more updated site!
+      </h1>
+
+      <div class="flex justify-center mt-16 ml-64">
+        <div class="max-w-2xl px-8 py-4 mx-auto rounded-lg shadow-md dark:bg-cards mr-12" style="cursor: auto;">
+          <div class="flex items-center justify-between">
+          </div> 
+          <div class="mt-2">
+            <a class="text-2xl font-bold text-gray-300 dark:text-white hover:text-gray-300 dark:hover:text-gray-200">Github</a> 
+            <p class="mt-2 text-gray-600 dark:text-gray-300"></p>
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" width = "200" height = "200">
+          </div> 
+          <div class="flex items-center justify-between mt-4">
+            <p class="mt-2 pb-12 text-gray-600 dark:text-gray-300"></p>
+             <a href="https://github.com/rickr04" class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:text-blue-200">Vist My Github</a>
+            <div class="flex items-center">
+
+            </div>
+          </div>
+        </div>
+        <div class="max-w-2xl px-8 py-4 mx-auto bg-gray-800 rounded-lg shadow-md dark:bg-cards">
+          <div class="flex items-center justify-between">
+      
+          </div> 
+          <div class="mt-2">
+            <a href="https://stackdiary.com/" class="text-2xl font-bold text-gray-700 dark:text-white hover:text-gray-600 dark:hover:text-gray-200 hover:underline">Linkedin</a> 
+            <p class="mt-2 text-gray-600 dark:text-gray-300"></p>
+           
+            <img src="https://www.freepnglogos.com/uploads/linkedin-social-media-logo-7.png" width = "200" height = "200">
+          </div> 
+          <div class="mt-4 pb-12 ml-5 flex items-center justify-between">
+            <a href="https://www.linkedin.com/in/rick-ramirez04" class="px-6 py-3 text-blue-100 no-underline bg-blue-500 rounded hover:bg-blue-600 hover:text-blue-200">Vist My Linkedin</a>
+            <div class="flex items-center">
+            </div>
+          </div>
+        </div>
+        </div>
+  
+</div>
+    </div>
+  </div>
+  
+<div class="mt-64">
     <div class="flex justify-center items-center" id="catPic"></div>
     <div class="flex justify-center items-center" id="catPic">
         <h1
-          class="text-2xl md:text-3xl lg:text-4xl text-center md:text-left mt-8"
+          class="text-1xl md:text-2xl lg:text-3xl text-center md:text-left mt-8"
         >
           Click on cat picture for even more cat pictures!
     </div>
+  </div>
+  
     <script src="js/scripts.js"></script>
   </body>
 </html>
